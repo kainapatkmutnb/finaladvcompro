@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div style="text-align: center; margin-top: 30px;">
+        <h1><%= book.title %></h1>
+        <p>Author: <%= book.author %></p>
+        <p>Country: <%= book.country %></p>
+    </div>
+    <div class="link-center">
+        <a href="/update/<%= book.id %>">Edit</a>
+        <a href="/delete/<%= book.id %>">Delete</a>
+        <a href="/">Back To List</a>
+    </div>
+</body>
+</html>

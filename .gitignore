@@ -1,0 +1,14 @@
+node_modules/
+Database/*.sqlite
+*.log
+.DS_Store
+page_*.png
+view_pdf.html
+output.txt
+output_fitz.txt
+read_pdf.py
+read_pdf_fitz.py
+extract_images.py
+run_ocr.py
+run_ocr_retry.py
+ocr_results.txt
